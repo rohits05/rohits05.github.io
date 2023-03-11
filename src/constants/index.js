@@ -1,45 +1,22 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    typescript,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    github,
-    amazon,
-    java,
-    react,
-    cpp,
-    ai, 
-  axios,
-  bts,
-  chakra,
-  express,
-  firebase,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  reactjs,
+  redux,
+  meta,
+  carrent,
+  tripguide,
+  amazon,
+  react,
   htbf,
-  mysql,
-  next,
-  nextjs,
-  cloud,
-  openai,
   pb,
-  py,
-  sublime,
-  vercel,
-  vite,
-  vs, asd,
-  llb, pkd, open, xio, name
+  llb, pkd,  xio, name, open
   } from "../assets";
 import Earth from "../components/canvas/Earth";
   
@@ -98,66 +75,66 @@ import Earth from "../components/canvas/Earth";
   ];
   
   const technologies = [
-    {
-      name: "JAVA",
-      icon: java,
-    },
-    {
-      name: "TS",
-      icon: typescript,
-    },
-    {
-      name: "Cpp",
-      icon: cpp,
-    },
-    {
-      name: "Three Cloud",
-      icon: py,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Express JS",
-      icon: express,
-    },
-    {
-      name: "React JS",
-      icon: react,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
-    {
-      name: "MYSQL",
-      icon: mysql,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Vite",
-      icon: vite,
-    },
-    {
-      name: "Chakra UI",
-      icon: chakra,
-    },
+    // {
+    //   name: "JAVA",
+    //   icon: java,
+    // },
+    // {
+    //   name: "TS",
+    //   icon: typescript,
+    // },
+    // {
+    //   name: "Cpp",
+    //   icon: cpp,
+    // },
+    // {
+    //   name: "Three Cloud",
+    //   icon: py,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Express JS",
+    //   icon: express,
+    // },
+    // {
+    //   name: "React JS",
+    //   icon: react,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "Firebase",
+    //   icon: firebase,
+    // },
+    // {
+    //   name: "MYSQL",
+    //   icon: mysql,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Vite",
+    //   icon: vite,
+    // },
+    // {
+    //   name: "Chakra UI",
+    //   icon: chakra,
+    // },
     // {
     //   name: "Github",
     //   icon: github,
     // },
-    {
-      name: "Three Cloud",
-      icon: cloud,
-    },
+    // {
+    //   name: "Three Cloud",
+    //   icon: cloud,
+    // },
   ];
   
   const experiences = [
