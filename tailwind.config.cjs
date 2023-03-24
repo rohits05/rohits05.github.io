@@ -3,7 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
-    extend: {
+    extend: {  
+      animation: {
+        'ping': 'ping 3s cubic-bezier(0, 0, 0.2, 1)',
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",
@@ -23,5 +26,9 @@ module.exports = {
       },
     },
   },
+
+    
   plugins: [],
 };
+
+

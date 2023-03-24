@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-
+import { useState } from "react";
 import {
   About,
   Contact,
@@ -11,9 +11,20 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import { logo } from "./assets";
+
+// import { logo, menu, close } from "../assets";
 
 const App = () => {
-  return (
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 1400);
+
+  return loading ? (
+    <Loader />
+  ) : (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -36,5 +47,19 @@ const App = () => {
     </BrowserRouter>
   );
 };
+
+function Loader() {
+  return (
+    <div className="min-h-screen flex justify-center items-center bg-transparent content-center voilet-gradient overflow-hidden ">
+      <img
+        className="animate-ping"
+        src={logo}
+        height={300}
+        width={300}
+        alt="Loading..."
+      />
+    </div>
+  );
+}
 
 export default App;
